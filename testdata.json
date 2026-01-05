@@ -1,0 +1,67 @@
+{
+  "testCases": {
+    "TC11": {
+      "language": "both",
+      "inputs": {
+        "en": "can you help me in guiding about the visa process in UAE?",
+        "ar": "كيف يمكنني التقدم بطلب للحصول على تأشيرة؟"
+      },
+      "expectedBehavior": {
+        "en": "Response should provide clear steps or information about visa application process in UAE. Must mention UAE government services and be actionable.",
+        "ar": "يجب أن تقدم الاستجابة خطوات واضحة أو معلومات حول عملية التقدم بطلب للحصول على تأشيرة في الإمارات. يجب أن تذكر خدمات الحكومة الإماراتية وتكون قابلة للتنفيذ."
+      }
+    },
+    "TC12": {
+      "language": "both",
+      "inputs": {
+        "en": "How can I get a driving license in the UAE?",
+        "ar": "كيف يمكنني الحصول على رخصة قيادة في الإمارات؟"
+      },
+      "expectedBehavior": {
+        "en": "Response should explain the process of obtaining a driving license in UAE. Must be relevant to UAE driving license requirements and mention official government procedures.",
+        "ar": "يجب أن تشرح الاستجابة عملية الحصول على رخصة قيادة في الإمارات. يجب أن تكون ذات صلة بمتطلبات رخصة القيادة في الإمارات وتذكر الإجراءات الحكومية الرسمية."
+      }
+    },
+    "TC13": {
+      "language": "both",
+      "inputs": {
+        "en": "How can I apply for a golden visa?",
+        "ar": "كيف يمكنني التقدم بطلب للحصول على التأشيرة الذهبية؟"
+      },
+      "expectedBehavior": {
+        "en": "Response should provide information about golden visa application process in UAE. Must mention eligibility criteria and application steps.",
+        "ar": "يجب أن تقدم الاستجابة معلومات حول عملية التقدم بطلب للحصول على التأشيرة الذهبية في الإمارات. يجب أن تذكر معايير الأهلية وخطوات التقديم."
+      }
+    },
+    "TC14": {
+      "language": "both",
+      "inputs": {
+        "en": "List requirements for sponsoring visa for family",
+        "ar": "اذكر متطلبات تأشيرة رعاية الأسرة"
+      },
+      "expectedBehavior": {
+        "en": "Response should list the requirements for family sponsorship visa in UAE. Must include official requirements and documentation needed.",
+        "ar": "يجب أن تسرد الاستجابة متطلبات تأشيرة رعاية الأسرة في الإمارات. يجب أن تشمل المتطلبات الرسمية والوثائق المطلوبة."
+      }
+    },
+    "TC15": {
+      "language": "both",
+      "inputs": {
+        "en": "What government services are available online?",
+        "ar": "ما هي الخدمات الحكومية المتاحة عبر الإنترنت؟"
+      },
+      "expectedBehavior": {
+        "en": "Response should provide information about UAE government online services. Must be relevant to UAE e-government services and mention official platforms.",
+        "ar": "يجب أن تقدم الاستجابة معلومات حول الخدمات الحكومية الإماراتية عبر الإنترنت. يجب أن تكون ذات صلة بخدمات الحكومة الإلكترونية في الإمارات وتذكر المنصات الرسمية."
+      }
+    }
+  },
+  "generalizedInstructions": [
+    "AI provides a clear and helpful response to common public service queries",
+    "Responses are not hallucinated (i.e., fabricated or irrelevant)",
+    "Responses stay consistent for similar intent in both English and Arabic",
+    "Response formatting is clean (no broken HTML or incomplete thoughts)",
+    "Loading states and fallback messages (e.g., \"Sorry, please try again\") appear properly when expected"
+  ]
+}
+
